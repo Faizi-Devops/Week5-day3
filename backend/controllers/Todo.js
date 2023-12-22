@@ -8,7 +8,7 @@ const createTodo = async (req, res) => {
   }
   const { title, brand, price, description } = req.body;
   const upload = await uploadToCloudinary(req.file.buffer);
-  console.log("uploading",upload)
+  
 
   
 
